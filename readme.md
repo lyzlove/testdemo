@@ -2,8 +2,10 @@
 	git init  （生成.git隐藏目录）
  
 ## 用户信息配置
-	git config --global  user.name "lsername"
+	git config --global  user.name "username"
 	git config --global  user.email "email-adress"
+	
+	username 是你git信息中提示的名字，email-address 是git信息中提示的邮箱，都可以随意填写，就是提交代码的时候附带了你的信息，让别人知道是你提交了代码
  
 ##  git add  / git commit  提交代码
 	git add ./readme.md      打开git仓库门 指定文件放在门口
